@@ -19,4 +19,4 @@ jobs:
 
       - name: Scan Docker image with Trivy
         run: |
-          trivy image --exit-code 1 --severity CRITICAL golang:alpine
+          trivy image --exit-code 1 --severity CRITICAL grpc/go:latest
